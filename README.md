@@ -14,6 +14,7 @@ Context Windows, and Agent Loops Quietly Torch Your Budget** on
 [shankuehn.io](https://www.shankuehn.io/post/your-llm-has-a-spending-problem-how-prompts-context-windows-and-agent-loops-quietly-torch-your-b).
 
 Author: Shannon Eldridge-Kuehn
+(c) July 2026
 
 ## Why this exists
 
