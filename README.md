@@ -11,9 +11,9 @@ that closes that gap.
 
 Companion code for the post **Your LLM Has a Spending Problem: How Prompts,
 Context Windows, and Agent Loops Quietly Torch Your Budget** on
-[shankuehn.io](https://shankuehn.io).
+[shankuehn.io](https://www.shankuehn.io/post/your-llm-has-a-spending-problem-how-prompts-context-windows-and-agent-loops-quietly-torch-your-b).
 
-Author: Shannon Eldridge-Kuehn ([shankuehn.io](https://shankuehn.io))
+Author: Shannon Eldridge-Kuehn
 
 ## Why this exists
 
