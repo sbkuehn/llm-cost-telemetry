@@ -1,0 +1,14 @@
+# The package itself has zero required dependencies. Install only the provider
+# SDKs you actually use. The recommended path is extras via pyproject, e.g.
+#   pip install -e ".[anthropic]"      (or [openai], [gemini], [all], [dev])
+#
+# This file is provided for environments that prefer a plain requirements list.
+# Uncomment the providers you need:
+
+# anthropic>=0.40.0
+# openai>=1.50.0
+# google-genai>=1.0.0
+
+# Dev / examples:
+# pytest>=7.0
+# python-dotenv>=1.0

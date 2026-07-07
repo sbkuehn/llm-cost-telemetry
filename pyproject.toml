@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-cost-telemetry"
+version = "1.0.0"
+description = "Capture real token usage and estimated cost from Anthropic, OpenAI, and Google, and emit structured, attributable telemetry events."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE.md" }
+authors = [{ name = "Shannon Eldridge-Kuehn" }]
+keywords = [
+    "finops",
+    "llm",
+    "observability",
+    "cost",
+    "telemetry",
+    "anthropic",
+    "openai",
+    "gemini",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Monitoring",
+]
+dependencies = []
+
+[project.optional-dependencies]
+anthropic = ["anthropic>=0.40.0"]
+openai = ["openai>=1.50.0"]
+gemini = ["google-genai>=1.0.0"]
+all = ["anthropic>=0.40.0", "openai>=1.50.0", "google-genai>=1.0.0"]
+dev = ["pytest>=7.0", "python-dotenv>=1.0"]
+
+[project.urls]
+Homepage = "https://shankuehn.io"
+Repository = "https://github.com/shankuehn/llm-cost-telemetry"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
